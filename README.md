@@ -58,18 +58,29 @@ train_df = pd.read_csv(r'C:\...\train.csv')
 ```
 train_df.head()
 ```
-```
+ID	Warehouse_block	Mode_of_Shipment	Customer_care_calls	Customer_rating	Cost_of_the_Product	Prior_purchases	Product_importance	Gender	Discount_offered	Weight_in_gms	Reached.on.Time_Y.N
+0	1	D	Flight	4	2	177	3	low	F	44	1233	1
+1	2	F	Flight	4	5	216	2	low	M	59	3088	1
+2	3	A	Flight	2	2	183	4	low	M	48	3374	1
+3	4	B	Flight	3	3	176	4	medium	M	10	1177	1
+4	5	C	Flight	2	2	184	3	medium	F	46	2484	1
+
 Then checked the columns
-```
 ```
 train_df.columns
 ```
-```
+Index(['ID', 'Warehouse_block', 'Mode_of_Shipment', 'Customer_care_calls',
+       'Customer_rating', 'Cost_of_the_Product', 'Prior_purchases',
+       'Product_importance', 'Gender', 'Discount_offered', 'Weight_in_gms',
+       'Reached.on.Time_Y.N'],
+      dtype='object')
+
 The data was described
 ```
+train_df.info()
 ```
-train_df.describe()
-```
+![image](https://github.com/user-attachments/assets/cd663258-bf4c-4c22-9f95-97acc87f25b5)
+
 
 ## Visualizing the E-Commercial Dataset
 We made a function for bar plot visualizing the data.
