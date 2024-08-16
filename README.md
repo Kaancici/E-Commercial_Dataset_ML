@@ -2,20 +2,20 @@
 In this project, we performed Exploratory Data Analysis (EDA) and applied various machine learning techniques to analyze whether products would arrive on time. Our goal was to thoroughly analyze the data, identify the best-performing model, and accurately predict delivery timelines to determine if the products would be delivered on time.
 
 1. Numeric Variables (int64):
-ID: Unique identifier for each observation.
-Customer_care_calls: Number of calls made to customer service.
-Customer_rating: Customer satisfaction rating (likely on a scale from 1 to 5).
-Cost_of_the_Product: Cost of the product.
-Prior_purchases: Number of previous purchases.
-Discount_offered: Amount of discount offered.
-Weight_in_gms: Weight of the product in grams.
-Reached on time: It is the target variable, where 1 Indicates that the product has NOT reached on time and 0 indicates it has reached on time.
+ID: Unique identifier for each observation.                                   
+Customer_care_calls: Number of calls made to customer service.                         
+Customer_rating: Customer satisfaction rating (likely on a scale from 1 to 5).                 
+Cost_of_the_Product: Cost of the product.                                           
+Prior_purchases: Number of previous purchases.                             
+Discount_offered: Amount of discount offered.                           
+Weight_in_gms: Weight of the product in grams.                         
+Reached on time: It is the target variable, where 1 Indicates that the product has NOT reached on time and 0 indicates it has reached on time.                      
 
 3. Categorical Variables (object):
-Warehouse_block: Warehouse blocks (e.g., A, B, C, D, F).
-Mode_of_Shipment: Mode of shipment (e.g., 'Ship', 'Flight', 'Road').
-Product_importance: Importance of the product (e.g., 'low', 'medium', 'high').
-Gender: Customer's gender (e.g., 'Male', 'Female').
+Warehouse_block: Warehouse blocks (e.g., A, B, C, D, F).                    
+Mode_of_Shipment: Mode of shipment (e.g., 'Ship', 'Flight', 'Road').                   
+Product_importance: Importance of the product (e.g., 'low', 'medium', 'high').                 
+Gender: Customer's gender (e.g., 'Male', 'Female').                      
 
 
 ## Libraries
